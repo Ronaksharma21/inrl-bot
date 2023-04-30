@@ -5,7 +5,7 @@ if (existsSync('config.env')) require('dotenv').config({ path: './config.env' })
 module.exports = {
     BASE_URL : "https://inrl-web.onrender.com/",
     VERSION: 'V 1.0.0', // bot version
-    SESSION_ID: process.env.SESSION_ID || '', //your ssid to run bot
+    SESSION_ID: process.env.SESSION_ID || 'inrl~0c6b6y1Jk37dfd4c95318a40a781f5aa4a34', //your ssid to run bot
     MONGO_URL : process.env.MONGO_URL,//must be enter your mongo url;
     HEROKU: {
         API_KEY: process.env.HEROKU_API_KEY,
